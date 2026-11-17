@@ -1,0 +1,22 @@
+# fly.toml app configuration file generated for interstellar-l8276g on 2026-11-17T12:51:16Z
+#
+# See https://docs.fly.io/reference/configuration for information about how to use this file.
+#
+
+app = 'interstellar-l8276g'
+primary_region = 'ams'
+
+[build]
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 256
