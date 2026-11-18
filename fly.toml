@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for interstellar-l8276g on 2026-11-17T12:51:16Z
+# fly.toml app configuration file generated for interstellar-irnf5a on 2026-11-18T05:07:51Z
 #
 # See https://docs.fly.io/reference/configuration for information about how to use this file.
 #
 
-app = 'interstellar-l8276g'
+app = 'interstellar-irnf5a'
 primary_region = 'ams'
 
 [build]
